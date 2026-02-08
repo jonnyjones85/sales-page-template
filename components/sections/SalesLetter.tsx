@@ -183,7 +183,7 @@ export default function SalesLetter({ config }: { config: ProductConfig }) {
 
   return (
     <section id="section-sales-letter" className="bg-white py-8 md:py-12">
-      <div className="max-w-[800px] mx-auto px-4">
+      <div className="max-w-[800px] mx-auto px-5 md:px-4">
         {salesLetter.blocks.map((block, i) => (
           <RenderBlock key={i} block={block} config={config} />
         ))}
