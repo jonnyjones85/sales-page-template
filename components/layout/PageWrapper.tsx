@@ -8,7 +8,7 @@ export default function PageWrapper({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen bg-navy-page">
+    <div className="min-h-screen" style={{ backgroundColor: "var(--color-navy-page)" }}>
       <div className="page-container">{children}</div>
     </div>
   );
