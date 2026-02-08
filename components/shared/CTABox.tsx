@@ -15,6 +15,12 @@ export default function CTABox({
   checkoutUrl = "#checkout",
   guaranteeBadgeImg,
   checkoutBadgeImg,
+  buttonBgImage,
+  buttonIconSrc,
+  ctaMainText,
+  ctaSubText,
+  ctaLinkText,
+  guaranteeDays = 30,
 }: {
   variant?: "hero" | "inline" | "sticky";
   price?: string;
@@ -23,13 +29,23 @@ export default function CTABox({
   checkoutUrl?: string;
   guaranteeBadgeImg?: string;
   checkoutBadgeImg?: string;
+  buttonBgImage?: string;
+  buttonIconSrc?: string;
+  ctaMainText?: string;
+  ctaSubText?: string;
+  ctaLinkText?: string;
+  guaranteeDays?: number;
 }) {
+  const mainText = ctaMainText || `Install Now For Only ${price}`;
+  const subText = ctaSubText || "And get instant access";
+  const linkText = ctaLinkText || "Click Here To Get Your Install Pack";
+
   if (variant === "sticky") {
     return (
       <div className="bg-white border-2 border-black rounded shadow-[4px_4px_0_rgba(0,0,0,0.15)] p-4">
         <div className="text-center mb-3">
           <p className="text-[var(--fs-sm)] font-bold text-black">
-            Get The Install Pack
+            Get It Now
           </p>
           <p className="text-[var(--fs-xs)] text-[var(--color-text-light)]">
             <span className="line-through">{originalPrice}</span>{" "}
@@ -37,10 +53,12 @@ export default function CTABox({
           </p>
         </div>
         <CTAButton
-          mainText={`Install Now For Only ${price}`}
-          subText="And get instant access"
+          mainText={mainText}
+          subText={subText}
           href={checkoutUrl}
           variant="small"
+          buttonBgImage={buttonBgImage}
+          buttonIconSrc={buttonIconSrc}
         />
       </div>
     );
@@ -66,9 +84,11 @@ export default function CTABox({
 
         {/* Button */}
         <CTAButton
-          mainText={`Install Now For Only ${price}`}
-          subText="And get instant access"
+          mainText={mainText}
+          subText={subText}
           href={checkoutUrl}
+          buttonBgImage={buttonBgImage}
+          buttonIconSrc={buttonIconSrc}
         />
 
         {/* Link below button */}
@@ -77,7 +97,7 @@ export default function CTABox({
             href={checkoutUrl}
             className="text-[var(--color-blue-link)] underline font-bold text-[var(--fs-sm)]"
           >
-            Click Here To Get Your Install Pack
+            {linkText}
           </a>
         </p>
 
@@ -100,13 +120,13 @@ export default function CTABox({
           {guaranteeBadgeImg && (
             <img
               src={guaranteeBadgeImg}
-              alt="30-Day Guarantee"
+              alt={`${guaranteeDays}-Day Guarantee`}
               className="w-8 h-8"
               loading="lazy"
             />
           )}
           <span>
-            30-Day{" "}
+            {guaranteeDays}-Day{" "}
             <span className="text-[var(--color-gold)] font-bold">
               Unconditional
             </span>{" "}

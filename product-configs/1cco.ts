@@ -10,6 +10,11 @@ const config: ProductConfig = {
   checkoutUrl: "#checkout",
   guaranteeDays: 30,
 
+  // CTA button styling
+  buttonBgImage: "/images/1cco/656391ae9762af5177c84f0e.png",
+  buttonIconSrc: "/assets/65638ce89762af35e0c83b75.svg",
+  ctaLinkText: "Click Here To Get Your Install Pack",
+
   // Top bar
   topBar: {
     helpEmail: "info@8figuresystems.io",

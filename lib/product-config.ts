@@ -216,6 +216,16 @@ export interface ProductConfig {
     badgeSrc?: string;
   };
 
+  // CTA button customization
+  buttonBgImage?: string;
+  buttonIconSrc?: string;
+  ctaMainText?: string;
+  ctaSubText?: string;
+  ctaLinkText?: string;
+
+  // FAQ heading override
+  faqHeading?: string;
+
   // Checkout badge image (safe checkout)
   checkoutBadgeSrc?: string;
 

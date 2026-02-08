@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="300" viewBox="0 0 700 300">
+  <rect width="700" height="300" rx="8" fill="#f5f5f5" stroke="#ddd"/>
+  <rect x="30" y="30" width="280" height="240" rx="6" fill="#ffcccc"/>
+  <text x="170" y="120" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#cc0000">BEFORE</text>
+  <text x="170" y="150" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#333">89 kg</text>
+  <text x="170" y="180" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#888">[Placeholder]</text>
+  <rect x="390" y="30" width="280" height="240" rx="6" fill="#ccffcc"/>
+  <text x="530" y="120" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#238f52">AFTER</text>
+  <text x="530" y="150" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#333">76.3 kg</text>
+  <text x="530" y="180" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#888">[Placeholder]</text>
+  <text x="350" y="150" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#E79F07">→</text>
+</svg>
