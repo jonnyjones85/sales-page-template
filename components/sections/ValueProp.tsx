@@ -34,11 +34,6 @@ export default function ValueProp({ config }: { config: ProductConfig }) {
                 originalPrice={config.originalPrice}
                 savings={config.savings}
                 checkoutUrl={config.checkoutUrl}
-                buttonBgImage={config.buttonBgImage}
-                buttonIconSrc={config.buttonIconSrc}
-                ctaMainText={config.ctaMainText}
-                ctaSubText={config.ctaSubText}
-                ctaLinkText={config.ctaLinkText}
               />
 
               {/* Sidebar bonus images */}

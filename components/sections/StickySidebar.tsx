@@ -43,12 +43,10 @@ export default function StickySidebar({ config }: { config: ProductConfig }) {
           </p>
         </div>
         <CTAButton
-          mainText={config.ctaMainText || `Install Now For Only ${config.price}`}
-          subText={config.ctaSubText || "And get instant access"}
+          mainText={`Install Now For Only ${config.price}`}
+          subText="And get instant access"
           href={config.checkoutUrl}
           variant="small"
-          buttonBgImage={config.buttonBgImage}
-          buttonIconSrc={config.buttonIconSrc}
         />
       </div>
     </div>

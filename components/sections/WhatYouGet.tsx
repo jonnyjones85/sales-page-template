@@ -57,7 +57,7 @@ export default function WhatYouGet({ config }: { config: ProductConfig }) {
       </div>
 
       {/* CTA after features */}
-      <SalesLetterCTA price={config.price} checkoutUrl={config.checkoutUrl} ctaMainText={config.ctaMainText} ctaSubText={config.ctaSubText} ctaLinkText={config.ctaLinkText} buttonBgImage={config.buttonBgImage} buttonIconSrc={config.buttonIconSrc} />
+      <SalesLetterCTA price={config.price} checkoutUrl={config.checkoutUrl} />
     </SectionWrapper>
   );
 }

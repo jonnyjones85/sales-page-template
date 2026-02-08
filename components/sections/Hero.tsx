@@ -75,12 +75,6 @@ export default function Hero({ config }: { config: ProductConfig }) {
               checkoutUrl={config.checkoutUrl}
               checkoutBadgeImg={config.checkoutBadgeSrc}
               guaranteeBadgeImg={hero.guaranteeBadgeImg}
-              buttonBgImage={config.buttonBgImage}
-              buttonIconSrc={config.buttonIconSrc}
-              ctaMainText={config.ctaMainText}
-              ctaSubText={config.ctaSubText}
-              ctaLinkText={config.ctaLinkText}
-              guaranteeDays={config.guaranteeDays}
             />
           </div>
         </div>
