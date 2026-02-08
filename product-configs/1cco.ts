@@ -40,14 +40,21 @@ const config: ProductConfig = {
   // Value prop (2/3 + 1/3 layout)
   valueProp: {
     introParagraphs: [
-      "We put everything you need to know about streamlining your client onboarding into an easy-to-follow install pack that you can set up in just 30 minutes.",
-      "Whether you're a coach, consultant, agency owner, or service provider \u2014 this system works for <strong>any business that onboards clients</strong>.",
+      "The 1 Click Client Onboarding Install Pack is a counterintuitive client onboarding approach to onboard clients without complicated systems, expensive software, or managing assistants.",
+      "We achieve this by finding the onboarding steps that are repetitive for every client and leveraging automations that do the work for you.",
+      "And as a result...this frees you up to focus on working ON your business and NOT IN the business - this is the 1 Click Client Onboarding Install Pack.",
+      "<u>This Install Pack works with all website &amp; funnel builders</u> - Wordpress, Clickfunnels, GoHighlevel, Webflow... <strong>without changing anything to your current setup!</strong>",
     ],
     featureDiagram: "/images/1cco/656b079ee33f7cbc7b2c7467.png",
-    whatThisMeansHeading: "What This Means For You",
+    whatThisMeansHeading: "HERE\u2019S WHAT THIS MEANS FOR YOU AND YOUR BUSINESS...",
     whatThisMeansParagraphs: [
-      "Every business scales the same way: better systems = more time = more clients = more revenue.",
-      "The 1 Click Client Onboarding Install Pack gives you the exact system we use to onboard clients seamlessly, track satisfaction, and turn one-time buyers into lifetime clients.",
+      "Every business scales to the limit of one thing and one thing only \u2013 its systems\u2026",
+      "\u2026And systems are largely based on the ability to automate processes.",
+      "NOT automating your business is also the #1 most expensive thing a business can do in its quest for growth\u2026.",
+      "\u2026That\u2019s why we developed the 1 Click Client Onboarding Install Pack to allow you to start onboarding your clients in 1 click (without needless labor)\u2026",
+      "\u2026And in turn automating your full business.",
+      "How far you scale is up to you.",
+      "\u2026Here are a few of our clients and their stories of what they\u2019ve been able to accomplish with the help of the 1 Click Client Onboarding Install Pack:",
     ],
     caseStudyVideos: [
       {

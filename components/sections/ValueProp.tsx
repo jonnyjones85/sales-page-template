@@ -55,10 +55,13 @@ export default function ValueProp({ config }: { config: ProductConfig }) {
             valueProp.introParagraphs.map((text, i) => (
               <p
                 key={i}
-                className="text-[var(--fs-base)] text-[var(--color-text)] mb-4 leading-relaxed"
+                className="text-[var(--fs-base)] text-[var(--color-text)] mb-4 leading-relaxed px-2 md:px-0"
                 dangerouslySetInnerHTML={{ __html: text }}
               />
             ))}
+
+          {/* Separator after intro */}
+          <hr className="my-6 border-t border-[var(--color-border-light)]" />
 
           {/* Feature diagram */}
           {valueProp.featureDiagram && (
@@ -81,7 +84,7 @@ export default function ValueProp({ config }: { config: ProductConfig }) {
               {valueProp.whatThisMeansParagraphs?.map((text, i) => (
                 <p
                   key={i}
-                  className="text-[var(--fs-base)] text-[var(--color-text)] mb-4 leading-relaxed"
+                  className="text-[var(--fs-base)] md:text-[var(--fs-lg)] text-[var(--color-text)] mb-4 leading-relaxed px-2 md:px-0"
                   dangerouslySetInnerHTML={{ __html: text }}
                 />
               ))}
